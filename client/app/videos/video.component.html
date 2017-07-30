@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="video-portal">
+        <div class="row">
+            <div class="col-sm-3" *ngFor="let video of videos">
+                <div class="video-template">
+                    <h4>{{video.name}}</h4>
+                    <video width="320" height="240" controls>
+                        <source src="{{video.url}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>{{video.rating}}</p>
+                    <p>{{video.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

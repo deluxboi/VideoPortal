@@ -1,0 +1,12 @@
+.enter-btn {
+    padding: 15px 30px;
+    background: #02a7f9;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+.enter-btn:hover {
+    background: white;
+    color: #02a7f9;
+    border: 2px solid #02a7f9;
+}

@@ -1,0 +1,29 @@
+.login-bg {
+    background-image: url(../public/assets/img/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.login-content {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.15);
+}
+.login-form {
+    background: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 10px;
+    border-top: 5px solid #02a7f9;
+}
+input[type="text"],input[type="password"] {
+    height: 40px;
+    font-size: x-large;
+}
